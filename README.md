@@ -12,12 +12,11 @@ using damped Newton iterations and writes the result to `ExampleEOS.dat`.
 - See `requirements.txt`
 
 ## Installation
-
-```bash
 git clone https://github.com/Musfer/NNEoS.git
 cd NNEoS
+python -m venv NNEoS_venv
+source NNEoS_venv/bin/activate  # On Windows: NNEoS_venv\Scripts\activate
 pip install -r requirements.txt
-```
 
 ## Usage
 
