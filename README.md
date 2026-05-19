@@ -32,6 +32,5 @@ Define your (ε, n_B) grid in the marked cell, then run all cells.
 
 ## Output
 
-`ExampleEOS.dat` — columns: `T  muB  eps  nB  muQ  muS  P  residual` (all in GeV and fm units)
+`ExampleEOS.dat` — columns: `T [GeV] muB [GeV]  eps [GeV/fm^3]  nB [1/fm^3]  muQ [GeV] muS [GeV]  P [GeV/fm^3] residual`
 
-## Project structure
