@@ -40,10 +40,10 @@ Large residuals (typically close to 1.0) indicate that the (ε, n_B) combination
 
 ## Compatibility with vHLLE (eoChiral.cpp)
 
-The output `.dat` files are compatible with the chiral EOS reader in vHLLE:
+The output `.dat` files are compatible with the chiral EOS reader impelemented in vHLLE:
 https://github.com/yukarpenko/vhlle/blob/main/src/eoChiral.cpp
 
-When integrating, note the following differences from the default vHLLE reader:
+When integrating, note the following differences from the default reader:
 
 **Table format**
 1. Remove the ε and n_B rescaling present in `eoChiral.cpp` — the values in
