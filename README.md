@@ -35,6 +35,9 @@ Define your (ε, n_B) grid in the marked cell, then run all cells.
 
 The files `smallEOS.dat` and `bigEOS.dat` are pregenerated tables on two different grid sizes, ready for direct use.
 
+The residual column is the RMS of the Newton residual vector (P, ε, n_B, n_Q, n_S components, without dimensional normalization).
+Large residuals (typically close to 1.0) indicate that the (ε, n_B) combination is unphysical and cannot be realised by this EOS.
+
 ## Compatibility with vHLLE (eoChiral.cpp)
 
 The output `.dat` files are compatible with the chiral EOS reader in vHLLE:
