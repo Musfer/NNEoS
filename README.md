@@ -1,7 +1,6 @@
 # NNEoS — Neural Network Equation of State
 
-Generates thermodynamic EOS tables from a pretrained deep residual neural network,
-using lattice QCD pressure as a baseline.
+Generates thermodynamic EOS tables based on https://arxiv.org/abs/2605.22199.
 For each point on an (ε, n_B) grid, the code solves for (T, μ_B, μ_Q, μ_S)
 using damped Newton iterations and writes the result to `ExampleEOS.dat`.
 
