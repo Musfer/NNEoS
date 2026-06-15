@@ -51,11 +51,12 @@ When integrating, note the following differences from the default reader:
 2. Remove any dimensional rescaling — all quantities are already in GeV and fm.
 3. Do not override μ_Q to 0.0 — the table contains the physical μ_Q values.
 
-**Hybrid model usage**
+**Hybrid model usage remarks**
 1. No switching to a hadronic EOS is needed: this model smoothly connects to
-   hadronic degrees of freedom at low T and μ_B.
+   hadronic degrees of freedom for ε ≤ 0.5 GeV/fm³, which is the typical
+   particlization criterion used in hybrid simulations.
 2. When generating particles in the hadron sampler, do not use the
-   Boltzmann series decomposition — it is not required for this EOS.
+   Boltzmann series decomposition (typically applied when μ_B/T is small).
 
 ## Citation
 
@@ -63,7 +64,7 @@ If you use this EOS in your work, please cite the following papers:
 
 **This work** (NNEoS model description):
 > M. Adzhymambetov, *Equation of State at High Baryon Densities from a Thermodynamically Informed Neural Network*, arXiv:2605.22199 [hep-ph] (2026).
-> https://arxiv.org/abs/2605.22199
+> https://arxiv.org/abs/2605.22199 (or published version if available)
 
 **Lattice QCD EOS baseline** (the parametrization this work builds upon):
 > J. Noronha-Hostler et al., *QCD equation of state at finite chemical potentials for use in hydrodynamic simulations*, arXiv:1902.06723 (2019).
