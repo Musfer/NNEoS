@@ -33,7 +33,9 @@ Define your (ε, n_B) grid in the marked cell, then run all cells.
 
 `ExampleEOS.dat` — columns: `T [GeV]  muB [GeV]  eps [GeV/fm^3]  nB [1/fm^3]  muQ [GeV]  muS [GeV]  P [GeV/fm^3]  residual`
 
-The files `smallEOS.dat` and `bigEOS.dat` are pregenerated tables on two different grid sizes, ready for direct use.
+The files `smallEOS.dat` and `bigEOS.dat` are pregenerated tables on two different grid sizes, ready for direct use:
+- `smallEOS.dat` — near-particlization region: ε ∈ [0.00, 0.80] GeV/fm³, n_B ∈ [-0.10, 0.80] fm⁻³, step 0.005
+- `bigEOS.dat` — hydrodynamic region: ε ∈ [0.00, 80.0] GeV/fm³, n_B ∈ [-0.50, 8.00] fm⁻³, steps 0.1 and 0.05 respectively
 
 The residual column is the RMS of the Newton residual vector (P, ε, n_B, n_Q, n_S components, without dimensional normalization).
 Large residuals (typically close to 1.0) indicate that the (ε, n_B) combination is unphysical and cannot be realised by this EOS.
