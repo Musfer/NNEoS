@@ -70,6 +70,10 @@ If you use this EOS in your work, please cite the following papers:
 > M. Adzhymambetov, *Equation of State at High Baryon Densities from a Thermodynamically Informed Neural Network*, arXiv:2605.22199 [hep-ph] (2026).
 > https://arxiv.org/abs/2605.22199 (or published version if available)
 
+**This code** (NNEoS repository):
+> M. Adzhymambetov, *NNEoS: Neural Network Equation of State*, Zenodo (2026).
+> https://doi.org/10.5281/zenodo.20763330
+
 **Lattice QCD EOS baseline** (the parametrization this work builds upon):
 > J. Noronha-Hostler et al., *QCD equation of state at finite chemical potentials for use in hydrodynamic simulations*, arXiv:1902.06723 (2019).
 > https://arxiv.org/abs/1902.06723
