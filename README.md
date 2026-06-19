@@ -31,7 +31,7 @@ Define your (ε, n_B) grid in the marked cell, then run all cells.
 
 ## Output
 
-`ExampleEOS.dat` — columns: `T [GeV]  muB [GeV]  eps [GeV/fm^3]  nB [1/fm^3]  muQ [GeV]  muS [GeV]  P [GeV/fm^3]  residual`
+`ExampleEOS.dat` — columns: `T [GeV]  muB [GeV]  ε [GeV/fm^3]  nB [1/fm^3]  muQ [GeV]  muS [GeV]  P [GeV/fm^3]  residual`
 
 The files `smallEOS.dat` and `bigEOS.dat` are pregenerated tables on two different grid sizes, ready for direct use:
 - `smallEOS.dat` — near-particlization region: ε ∈ [0.00, 0.80] GeV/fm³, n_B ∈ [-0.10, 0.80] fm⁻³, step 0.005
